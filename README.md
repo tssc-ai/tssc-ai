@@ -19,10 +19,10 @@ paper can run the basics and verify them.
 
 | # | Experiment | Paper section | What it checks |
 |---|------------|---------------|----------------|
-| 1 | `exp1_epsilon_identity` | §5.7 | `ε*(X) = ‖X‖₂²/‖X‖₁ = x̄(1+CV²)` holds to machine precision |
-| 2 | `exp2_selectivity` | §5.7, §8.10 | `ε*` stays selective for a focused field across all `r = β/γ`; floods only when the field is genuinely diffuse |
-| 3 | `exp3_hub_hijacking` | §9 | Receiver coupling `J = D_M⁺W` → hubs sterilized (0/5); sender coupling `WD_M⁺` → hubs hijack the field (5/5), at the **same spectral radius** |
-| 4 | `exp4_contraction` | §9, §9.1 | `‖J‖∞ ≤ 1` under `|w_ij| ≤ m_ij`, so `β < γ` suffices for contraction |
+| 1 | `exp1_epsilon_identity` | §5.7 | `$\varepsilon^*(X) = \frac{\Vert X \Vert_2^2}{\Vert X \Vert_1} = \bar{x}(1+\text{CV}^2)$` holds to machine precision |
+| 2 | `exp2_selectivity` | §5.7, §8.10 | `$\varepsilon^*$` stays selective for a focused field across all `$r = \beta/\gamma$`; floods only when the field is genuinely diffuse |
+| 3 | `exp3_hub_hijacking` | §9 | Receiver coupling `$J = D_M^+ W$` → hubs sterilized (0/5); sender coupling `$W D_M^+$` → hubs hijack the field (5/5), at the **same spectral radius** |
+| 4 | `exp4_contraction` | §9, §9.1 | `$\Vert J \Vert_\infty \le 1$` under `$\vert w_{ij} \vert \le m_{ij}$`, so `$\beta < \gamma$` suffices for contraction |
 | 5 | `exp5_als_disjoint` | §8.2.4, §8.2.6 | Weighted rank-1 ALS descends monotonically; disjoint-support cross-template has an exactly zero diagonal |
 
 ## Install
