@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+
+# LaTeX & Pandoc
+paper/build/
+*.log
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk

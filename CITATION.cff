@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "TSSC — Foundational Experiments"
+message: "If you use this software or the theory, please cite the paper."
+type: software
+authors:
+  - family-names: Cosci
+    given-names: Filippo
+repository-code: "https://github.com/tssc-ai"
+abstract: >
+  Reference implementation of the five foundational numerical experiments for
+  the Theory of the Continuous Semantic Space (TSSC): the epsilon* closed-form
+  identity, its selectivity, the hub-hijacking demonstration of receiver
+  normalization, the L-infinity contraction bound, and weighted rank-1 ALS with
+  the disjoint-support guarantee.
+keywords:
+  - semantic space
+  - field theory of meaning
+  - non-negative matrix factorization
+  - contraction dynamics
+license: MIT
