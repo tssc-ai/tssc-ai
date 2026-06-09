@@ -4,6 +4,12 @@ Reference implementation of the **baseline numerical claims** in the paper
 
 > **Filippo Cosci — *Meaning as a Field Event: the Theory of the Continuous Semantic Space (TSSC)*** *(Il significato come evento di campo — Teoria dello Spazio Semantico Continuo)*
 
+<div align="center">
+  <img src="figures/exp3_hub_hijacking.png" alt="Hub Hijacking vs Safe Routing" width="800"/>
+  <br/>
+  <em>Experiment 3: Sender-coupling vs Receiver-coupling. At the exact same spectral radius, the naïve sender-coupling (right) allows a central hub to hijack the semantic field. The theory's receiver-coupling (left) perfectly sterilizes the hub, preserving the true signal.</em>
+</div>
+
 The PDF (Italian and English) lives in [`paper/`](paper/).
 
 ## Scope — please read
