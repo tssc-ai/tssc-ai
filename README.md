@@ -4,12 +4,6 @@ Reference implementation of the **baseline numerical claims** in the paper
 
 > **Filippo Cosci — *Meaning as a Field Event: the Theory of the Continuous Semantic Space (TSSC)*** *(Il significato come evento di campo — Teoria dello Spazio Semantico Continuo)*
 
-<div align="center">
-  <img src="figures/exp3_hub_hijacking.png" alt="Hub Hijacking vs Safe Routing" width="800"/>
-  <br/>
-  <em>Experiment 3: Sender-coupling vs Receiver-coupling. At the exact same spectral radius, the naïve sender-coupling (right) allows a central hub to hijack the semantic field. The theory's receiver-coupling (left) perfectly sterilizes the hub, preserving the true signal.</em>
-</div>
-
 The PDF (Italian and English) lives in [`paper/`](paper/).
 
 ## Scope — please read
@@ -30,6 +24,17 @@ paper can run the basics and verify them.
 | 3 | `exp3_hub_hijacking` | §9 | Receiver coupling $J = D_M^+ W$ → hubs sterilized (0/5); sender coupling $W D_M^+$ → hubs hijack the field (5/5), at the **same spectral radius** |
 | 4 | `exp4_contraction` | §9, §9.1 | $\Vert J \Vert_\infty \le 1$ under $\vert w_{ij} \vert \le m_{ij}$, so $\beta < \gamma$ suffices for contraction |
 | 5 | `exp5_als_disjoint` | §8.2.4, §8.2.6 | Weighted rank-1 ALS descends monotonically; disjoint-support cross-template has an exactly zero diagonal |
+
+## Visuals & Results
+
+All generated plots and experiment outcomes are saved in the [`figures/`](figures/) directory. Here is a brief preview:
+
+<div align="center">
+  <img src="figures/exp3_hub_hijacking.png" alt="Hub Hijacking vs Safe Routing" width="48%"/>
+  <img src="figures/exp2_selectivity.png" alt="Selectivity of the Semantic Threshold" width="48%"/>
+  <br/>
+  <em>Left: <b>Exp 3</b> shows how receiver-coupling prevents central hubs from hijacking the field. Right: <b>Exp 2</b> demonstrates the self-adapting, scale-invariant behavior of the semantic threshold &epsilon;<sup>*</sup>.</em>
+</div>
 
 ## Install
 
